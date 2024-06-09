@@ -1,8 +1,16 @@
-# React + Vite
+Step 1. Clone the Weather-App project
+Step 2. Install the node_modules from command "npm install"
+Step 3. Run npm run dev
+Step 4. Project is running on local server http://localhost:5174/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Used technologies:-
+1. React router dom
+2. React bootstrap
+3. React icons
+4. DateFormate
+5. Axios
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Used website "https://openweathermap.org/api" for weather API
+
+
