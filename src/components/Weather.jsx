@@ -98,7 +98,17 @@ const Weather = () => {
                   <span>Humidity</span>
                 </div>
                 <Button onClick={toggleDarkMode}>
-                  {isDarkMode ? <FaSun /> : <FaMoon />}
+                  {isDarkMode ? (
+                    <div className="d-flex flex-column justify-content-center align-items-center gap-2">
+                      <span>Light</span>
+                      <FaSun />
+                    </div>
+                  ) : (
+                    <div className="d-flex flex-column justify-content-center align-items-center gap-2">
+                      <span>Dark</span>
+                      <FaMoon />
+                    </div>
+                  )}
                 </Button>
               </div>
             </div>
